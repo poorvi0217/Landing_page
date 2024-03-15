@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url("https://t3.ftcdn.net/jpg/04/28/83/30/360_F_428833035_BDo0pMjhuQalr8ifzjGxocLWNifEtz4u.jpg");
+    /* background-position: center;*/
+    height: 100vh;
+    width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     font-family:sans-serif;
+     word-spacing: 7px;
+    line-height: 20px;
+}
+.nav-bar{
+    background-color: white;
+    overflow: hidden;
+    
+}
+.nav-bar a{
+    float: right;
+    display: flex;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+.nav-bar img{
+  height: 7%;
+  width: 10%;
+}
+.nav-bar a:hover{
+    background-color: gray;
+    color: white;
+}
+h1{
+  margin-top: 10%;
+  font-size: 4vw;
+  color: white;
+}
+.info{
+  color: white;
+  margin-top: 2%;
+  display: flex;
+  float: left;  
+}
+.text{
+  margin-left: 4%;
+}
+.info p{
+  width: 30vw;
+  padding: 3vw;
+}
+.logo a{
+  color: white;
+}
+
+#about{
+   float: left;
+    display: flex;
+    background-color: rgb(240, 244, 247); 
+}
+#text{
+   margin-top: 6vh;
+   margin-left: 10vw;
+   word-spacing: 7px;
+   line-height: 30px;
+   font-family:sans-serif;
+}
+.footer{
+  background-color:rgb(11, 126, 226) ;
+  text-align: center;
+  color: white;
+  font-size: 1.2vw;
+}
+
+button{
+  height: 5vh;
+  width: 10vw;  
+  font-family:sans-serif;
+  margin-top: 4vh;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: rgb(11, 126, 226);
+}
+#images{
+  float: left;
+  display: flex;
+  background-color: rgb(240, 244, 247); 
+}
+#images img{
+  width: 35%;
+  margin-left: 10vw;
+}
